@@ -1,4 +1,3 @@
-from time import sleep
 from random import choice as pick
 import db
 import random
@@ -39,18 +38,6 @@ def _doTheThing():
         return text
     else:
         return text
-
-
-           
-
-
-
-
-
-
-
-
-
 
 if __name__ == "__main__":
     play()
